@@ -1,0 +1,293 @@
+ 
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A & L Enterprises (Pty) Ltd</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1497366754035-f200968a6e72');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.2rem;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:50px;
+    color:#0d2b52;
+}
+
+.about{
+    text-align:center;
+    max-width:1000px;
+    margin:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    color:#0d2b52;
+    margin-bottom:15px;
+}
+
+.values{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.value{
+    background:#0d2b52;
+    color:white;
+    padding:15px 25px;
+    border-radius:50px;
+}
+
+.why-us{
+    background:#0d2b52;
+    color:white;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.why-box{
+    background:rgba(255,255,255,.1);
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.contact-box{
+    background:white;
+    max-width:700px;
+    margin:auto;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:2.5rem;
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="hero">
+        <h1>A & L Enterprises</h1>
+        <p>
+            Professional, Reliable & Cost-Effective Solutions Across South Africa.
+            Property Maintenance, Cleaning, Transportation, Waste Management,
+            Administration, Bookkeeping and Vehicle Trading Services.
+        </p>
+    </div>
+</header>
+
+<section>
+    <h2 class="section-title">About Us</h2>
+
+
+<div class="about">
+    <p>
+        A & L Enterprises (Pty) Ltd is committed to delivering reliable,
+        professional and cost-effective services tailored to the needs of
+        businesses, government institutions and private clients across South Africa.
+    </p>
+
+    <br>
+
+    <p>
+        We take pride in providing quality workmanship, dependable service
+        and practical solutions that help our clients save time, reduce costs
+        and keep their operations running smoothly. Whether it's property
+        maintenance, cleaning services, transportation, waste management or
+        administrative support, our focus remains the same – delivering
+        excellent results and building long-term relationships through trust,
+        professionalism and customer satisfaction.
+    </p>
+
+    <br>
+
+    <p>
+        At A & L Enterprises, we believe that every client deserves personal
+        attention, honest communication and service they can rely on.
+    </p>
+</div>
+
+
+</section>
+
+<section>
+    <h2 class="section-title">Our Services</h2>
+
+
+<div class="services">
+
+    <div class="service-card">
+        <h3>Property Maintenance</h3>
+        <p>General building maintenance, repairs, renovations, painting and handyman services.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Cleaning Services</h3>
+        <p>Commercial cleaning, residential cleaning, deep cleaning and sanitation services.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Waste Management</h3>
+        <p>Waste removal, site clean-ups and garden refuse removal.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Transportation</h3>
+        <p>Collection and delivery services, logistics support and goods transportation.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Vehicle Trading</h3>
+        <p>Buying and selling vehicles, vehicle sourcing and inspections.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Administrative Services</h3>
+        <p>Office administration, data capturing and document management.</p>
+    </div>
+
+</div>
+
+
+</section>
+
+<section>
+    <h2 class="section-title">Our Core Values</h2>
+
+
+<div class="values">
+    <div class="value">Integrity</div>
+    <div class="value">Professionalism</div>
+    <div class="value">Accountability</div>
+    <div class="value">Reliability</div>
+    <div class="value">Excellence</div>
+    <div class="value">Customer Satisfaction</div>
+    <div class="value">Continuous Improvement</div>
+</div>
+
+
+</section>
+
+<section class="why-us">
+    <h2 class="section-title" style="color:white;">Why Choose Us?</h2>
+
+
+<div class="why-grid">
+    <div class="why-box">Reliable & Professional Service</div>
+    <div class="why-box">Fast Response Times</div>
+    <div class="why-box">Affordable & Competitive Pricing</div>
+    <div class="why-box">Tailored Solutions for Every Client</div>
+    <div class="why-box">Commitment to Quality Workmanship</div>
+    <div class="why-box">Customer Satisfaction is Our Priority</div>
+</div>
+
+
+</section>
+
+<section>
+    <h2 class="section-title">Contact Us</h2>
+
+
+<div class="contact-box">
+    <p style="font-size:1.2rem;">
+        Feel free to contact us on 066 158 5346.
+    </p>
+
+    <br>
+
+    <p style="font-size:1.2rem;">
+        For quotes, email alenterprises763@gmail.com
+    </p>
+</div>
+
+
+</section>
+
+<footer>
+    <p>&copy; 2026 A & L Enterprises (Pty) Ltd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
